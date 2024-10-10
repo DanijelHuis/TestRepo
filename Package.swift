@@ -34,7 +34,7 @@ let package = Package(
                 .target(name: "CardLinkSDK"),
                 .product(name: "OpenSSL", package: "OpenSSL-Swift"),
             ],
-            path: "Sources/CardLinkSDK"  // This must exist and it must have some empty source file.
+            path: "Sources/CardLinkSDKWrapper"  // This must exist and it must have some empty source file.
         )
     ]
 )
