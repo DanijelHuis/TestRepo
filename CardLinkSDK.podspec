@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   # Framework linking is handled by Flutter tooling, not CocoaPods.
   # Add a placeholder to satisfy `s.dependency 'Flutter'` plugin podspecs.
-  s.vendored_frameworks = 'CardLinkSDK'
+  s.vendored_frameworks = 'CardLinkSDK.xcframework'
   #s.xcconfig = { 'OTHER_LDFLAGS' => '-framework CardLinkSDK' }
 end
