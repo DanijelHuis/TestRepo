@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = 'CardLinkSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'A UI toolkit for beautiful and fast apps.'
   s.homepage         = 'https://flutter.dev'
   s.license          = { :type => 'BSD' }
   s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source           = { :http => 'https://github.com/DanijelHuis/TestRepo/releases/download/0.0.3/CardLinkSDK.xcframework.zip' }
+  s.source           = { :http => 'https://github.com/DanijelHuis/TestRepo/releases/download/0.0.5/CardLinkSDK.xcframework.zip' }
   s.ios.deployment_target = '12.0'
   # Framework linking is handled by Flutter tooling, not CocoaPods.
   # Add a placeholder to satisfy `s.dependency 'Flutter'` plugin podspecs.
