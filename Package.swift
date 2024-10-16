@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "CardLinkSDK",
             url: "https://github.com/DanijelHuis/TestRepo/releases/download/0.0.6/CardLinkSDK.xcframework.zip", 
-            checksum: "364566e773d74869f3f8535bc7fb4c2e7d9f00cc0f57b86cc9c5df10a53808a0"
+            checksum: "a908fe74c085a17be517e870730311d0409515c77971c050737b4c20ca9841b7"
         ),
         .target(
             name: "CardLinkSDKWrapper",
