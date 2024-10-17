@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name             = 'CardLinkSDK'
-  s.version          = '0.0.13'
-  s.summary          = 'A UI toolkit for beautiful and fast apps.'
-  s.homepage         = 'https://flutter.dev'
+  s.name             = 'GematikOpenSSL'
+  s.version          = '4.3.0'
+  s.summary          = 'Gematik OpenSSL doesnt have its own pod so we created it for internal usage.'
+  s.homepage         = 'https://example.com'
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,14 +17,11 @@ Pod::Spec.new do |s|
     limitations under the License.
     LICENSE
   }
-  s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source           = { :http => 'https://github.com/DanijelHuis/TestRepo/releases/download/0.0.13/Archive.zip' }
+  s.author           = { 'Gematik' => 'https://example.com' }
+  s.source           = { :http => 'https://github.com/gematik/OpenSSL-Swift/releases/download/4.3.0/OpenSSL.xcframework.zip' }
   s.ios.deployment_target = '15.0'
 
   s.vendored_frameworks = [
-    'Frameworks/CardLinkSDK.xcframework',
-    'Frameworks/OpenSSL.xcframework'
+    'OpenSSL.xcframework'
   ]
-
-  #s.xcconfig = { 'OTHER_LDFLAGS' => '-framework CardLinkSDK' }
 end
