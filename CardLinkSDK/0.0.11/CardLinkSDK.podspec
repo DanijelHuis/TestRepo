@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
 
   s.vendored_frameworks = [
-    'CardLinkSDK.xcframework'  
+    'Frameworks/CardLinkSDK.xcframework'  
   ]
 
   #s.xcconfig = { 'OTHER_LDFLAGS' => '-framework CardLinkSDK' }
