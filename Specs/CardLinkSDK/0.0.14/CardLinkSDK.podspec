@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Danijel Huis' => 'https://example.com' }
   s.source           = { :http => 'https://github.com/DanijelHuis/TestRepo/releases/download/0.0.14/CardLinkSDK.xcframework.zip' }
   s.ios.deployment_target = '15.0'
-  s.vendored_frameworks = 'CardLinkSDK.xcframework'
-  s.dependency = 'GematikOpenSSL'
+  s.vendored_frameworks = ['CardLinkSDK.xcframework']
+  s.dependency 'GematikOpenSSL'
+
 end
